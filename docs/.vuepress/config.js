@@ -1,5 +1,5 @@
 module.exports = {
-  // base: 'card-ui-lib',
+  base: '/card-ui-lib/',
   themeConfig: {
     sidebar: [
       '/',
