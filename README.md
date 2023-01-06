@@ -1,24 +1,22 @@
-# mooc-ui
+# mooc-ui-lib-test 组件库测试
 
-## Project setup
-```
-npm install
-```
+### 快速开始
 
-### Compiles and hot-reloads for development
-```
-npm run serve
-```
+#### 1、安装组件库
 
-### Compiles and minifies for production
+```bash
+npm install mooc-ui-lib-test
 ```
-npm run build
-```
+#### 2、引用组件库
 
-### Lints and fixes files
-```
-npm run lint
-```
+```javascript
+// 全部引入
+import 'mooc-ui-lib-test/dist/css/index.css'
+import MUI from 'mooc-ui-lib-test'
+Vue.use(MUI)
 
-### Customize configuration
-See [Configuration Reference](https://cli.vuejs.org/config/).
+// 按需引用
+import 'mooc-ui-lib-test/dist/css/demo.css'
+import { Demo } from "mooc-ui-lib-test"
+Vue.use(Demo)
+```
