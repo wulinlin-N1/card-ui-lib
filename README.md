@@ -20,3 +20,6 @@ import 'mooc-ui-lib-test/dist/css/demo.css'
 import { Demo } from "mooc-ui-lib-test"
 Vue.use(Demo)
 ```
+
+#### 文档地址
+https://wulinlin-n1.github.io/card-ui-lib/

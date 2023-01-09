@@ -2,7 +2,7 @@
 卡片组件
 
 ### 示例
-<m-card imgSrc="/1.jpg" summary="卡片组件-test"/>
+<m-card imgSrc="/card-ui-lib/1.jpg" summary="卡片组件-test"/>
 
 ### 代码
 ```html
